@@ -3,23 +3,40 @@
     margin: 0px;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Public Sans', sans-serif;
+}
+.overlay {
+    display: grid;
+    grid-template-columns: auto auto;
+}
 .head-wrap {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    margin-left: 43%;
-    margin-top: -2%;
+    align-items: center;
 }
 .logo {
     margin-top: 2%;
     margin-left: 11%;
 }
 nav.head {
-    border: 2px solid black;
+    border: 2px solid white;
     height: 10vh;
+}
+.wrap {
+    font-size: 18px;
+    margin-left: 20%;
+}
+.h1 {
+    padding: 28% 1px 1px 14px;
+}
+.paragraph {
+    padding: 9px 50px 20px 17px;
 }
 .wrapper {
     width: 100%;
     height: 100vh;
+    background-color: whitesmoke;
     background-image: url(../img/bg-intro-desktop.svg);
     background-size: 100% 150%;
     background-position: 571px -232px;
@@ -39,4 +56,93 @@ nav.head {
 }
 .mockups {
     width: 100%;
+    margin-left: 64%;
+}
+.wrap3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.frontend {
+    background-color: rgb(238, 236, 236);
+}
+.confetti {
+    width: 100%;
+    height: 53%;
+    margin-top: -1px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.choplife {
+    border: 1px;
+    padding: 4px 1px 8px 2px;
+    margin: 11px 56px 10px 8px;
+    border-radius: 6px;
+    background-color: white;
+}
+.banking {
+    border: 1px;
+    padding: 17px 26px 27px 21px;
+}
+.budgeting {
+    border: 1px;
+    padding: 22px 26px 23px 18px;
+}
+.onboarding {
+    border: 1px;
+    padding: 22px 17px 25px 23px;
+}
+.api {
+    border: 1px;
+    padding: 22px 16px 20px 17px;
+}
+.online {
+    margin-bottom: 18px;
+}
+.fool {
+    margin-bottom: 20px;
+}
+.budget {
+    margin-bottom: 14px;
+}
+.plank {
+    margin-bottom: 19px;
+}
+.onboard {
+    margin-bottom: 12px;
+}
+.bang {
+    margin-bottom: 18px;
+}
+.API {
+    margin-bottom: 10px;
+}
+.peru {
+    margin-bottom: 17px;
+}
+.wrap1 {
+    margin: -9px 13px 6px 9%;
+    padding: 31px 43% 1px 1px;
+}
+.box {
+    background-color: hsl(0, 0%, 98%);
+}
+.wrap2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    margin-left: 8%;
+}
+.wrap4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: hsl(233, 26%, 24%);
+    color: white;
+    padding: 30px 20px 25px 27px;
+}
+.btn {
+    padding: 10px 15px 12px 16px;
+    background-color: hsl(136, 65%, 51%);
+    color: white;
+    border-radius: 12px;
+    border: 1px solid lime;
 }
