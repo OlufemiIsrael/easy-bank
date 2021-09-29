@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
 }
 .overlay {
     display: grid;
@@ -17,7 +18,7 @@ body{
 }
 .logo {
     margin-top: 2%;
-    margin-left: 11%;
+    margin-left: 17%;
 }
 nav.head {
     border: 2px solid white;
@@ -25,17 +26,12 @@ nav.head {
 }
 .wrap {
     font-size: 18px;
-    margin-left: 20%;
-}
-.h1 {
-    padding: 28% 1px 1px 14px;
-}
-.paragraph {
-    padding: 9px 50px 20px 17px;
+    margin-left: 21%;
+    margin-top: 24%;
 }
 .wrapper {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-color: whitesmoke;
     background-image: url(../img/bg-intro-desktop.svg);
     background-size: 100% 150%;
@@ -44,10 +40,22 @@ nav.head {
     position: relative;
 
 }
-.wrap-box{
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
+.wrap-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 70%;
+}
+.h1 {
+    margin-bottom: 23px;
+    font-size: 39px;
+}
+.paragraph {
+    margin-bottom: 23px;
+    font-size: 18px;
+    color: rgb(168, 161, 168);
+}
+.btn-wrap {
+    margin-left: -16px;
 }
 .img-mockup{
     width: 500px;
@@ -56,10 +64,11 @@ nav.head {
 }
 .mockups {
     width: 100%;
-    margin-left: 64%;
+    margin-left: 75%;
 }
 .wrap3 {
     display: grid;
+    margin-left: 37px;
     grid-template-columns: auto auto auto auto;
 }
 .frontend {
@@ -72,12 +81,33 @@ nav.head {
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
 }
+.article {
+    padding: 38px 3px 1px 48px;
+    margin-left: 21px;
+}
+.p2 {
+    color: rgb(168, 161, 168);
+}
 .choplife {
     border: 1px;
     padding: 4px 1px 8px 2px;
-    margin: 11px 56px 10px 8px;
+    margin: 10% 32px 23% 26px;
     border-radius: 6px;
     background-color: white;
+    font-size: 15px;
+    color: rgb(168, 161, 168);
+}
+.author {
+    margin-left: 10px;
+    margin-bottom: 9px;
+}
+.text {
+    margin-left: 10px;
+    margin-bottom: 11px;
+    color: rgb(66, 65, 66);
+}
+.wrld {
+    margin-left: 10px;
 }
 .banking {
     border: 1px;
@@ -96,32 +126,35 @@ nav.head {
     padding: 22px 16px 20px 17px;
 }
 .online {
-    margin-bottom: 18px;
+    margin-bottom: 36px;
 }
 .fool {
-    margin-bottom: 20px;
+    margin-bottom: 37px;
 }
 .budget {
-    margin-bottom: 14px;
+    margin-bottom: 34px;
 }
 .plank {
-    margin-bottom: 19px;
+    margin-bottom: 32px;
 }
 .onboard {
-    margin-bottom: 12px;
+    margin-bottom: 30px;
 }
 .bang {
-    margin-bottom: 18px;
+    margin-bottom: 35px;
 }
 .API {
-    margin-bottom: 10px;
+    margin-bottom: 29px;
 }
 .peru {
-    margin-bottom: 17px;
+    margin-bottom: 33px;
 }
 .wrap1 {
-    margin: -9px 13px 6px 9%;
+    margin: -9px 13px 6px 6%;
     padding: 31px 43% 1px 1px;
+}
+.h2 {
+    margin-bottom: 18px;
 }
 .box {
     background-color: hsl(0, 0%, 98%);
@@ -130,7 +163,7 @@ nav.head {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
-    margin-left: 8%;
+    margin-left: 4%;
 }
 .wrap4 {
     display: grid;
@@ -143,6 +176,32 @@ nav.head {
     padding: 10px 15px 12px 16px;
     background-color: hsl(136, 65%, 51%);
     color: white;
+    margin-left: 16px;
     border-radius: 12px;
     border: 1px solid lime;
+}
+.btn1 {
+    padding: 10px 15px 12px 16px;
+    background-color: hsl(136, 65%, 51%);
+    color: white;
+    margin-top: 10px;
+    margin-right: 175px;
+    border-radius: 12px;
+    border: 1px solid lime;
+}
+.para {
+    color: rgb(168, 161, 168);
+    margin-bottom: 12px;
+}
+img.logo2 {
+    margin-bottom: 25%;
+}
+.copy {
+    margin-top: 48px;
+}
+.img-wrap {
+    margin-left: 35px;
+}
+.lists {
+    padding-bottom: 15px;
 }
