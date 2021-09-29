@@ -164,6 +164,7 @@ nav.head {
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
     margin-left: 4%;
+    padding-bottom: 39px;
 }
 .wrap4 {
     display: grid;
@@ -177,7 +178,7 @@ nav.head {
     background-color: hsl(136, 65%, 51%);
     color: white;
     margin-left: 16px;
-    border-radius: 12px;
+    border-radius: 20px;
     border: 1px solid lime;
 }
 .btn1 {
@@ -186,12 +187,12 @@ nav.head {
     color: white;
     margin-top: 10px;
     margin-right: 175px;
-    border-radius: 12px;
+    border-radius: 20px;
     border: 1px solid lime;
 }
 .para {
     color: rgb(168, 161, 168);
-    margin-bottom: 12px;
+    margin-bottom: 14%;
 }
 img.logo2 {
     margin-bottom: 25%;
