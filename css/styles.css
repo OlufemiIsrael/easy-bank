@@ -53,6 +53,8 @@ nav.head {
     margin-bottom: 23px;
     font-size: 18px;
     color: rgb(168, 161, 168);
+    line-height: 26px;
+    word-spacing: 1px;
 }
 .btn-wrap {
     margin-left: -16px;
@@ -87,8 +89,9 @@ nav.head {
 }
 .p2 {
     color: rgb(168, 161, 168);
-}
-.choplife {
+    line-height: 30px;
+    word-spacing: 2px;
+}.choplife {
     border: 1px;
     padding: 4px 1px 8px 2px;
     margin: 10% 32px 23% 26px;
@@ -160,9 +163,9 @@ nav.head {
     background-color: hsl(0, 0%, 98%);
 }
 .wrap2 {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
     margin-left: 4%;
     padding-bottom: 39px;
 }
