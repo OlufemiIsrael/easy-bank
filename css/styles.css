@@ -98,9 +98,12 @@ nav.head {
     padding: 4px 1px 22px 2px;
     margin: 10% 32px 23% 26px;
     border-radius: 6px;
-    background-color: white;
     font-size: 15px;
     color: rgb(168, 161, 168);
+}
+.cast {
+    background-color: white;
+    margin-top: -2px;
 }
 .author {
     margin-left: 10px;
