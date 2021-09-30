@@ -47,6 +47,8 @@ nav.head {
 }
 .h1 {
     margin-bottom: 23px;
+    line-height: 45px;
+    word-spacing: 2px;
     font-size: 39px;
 }
 .paragraph {
@@ -93,7 +95,7 @@ nav.head {
     word-spacing: 2px;
 }.choplife {
     border: 1px;
-    padding: 4px 1px 8px 2px;
+    padding: 4px 1px 22px 2px;
     margin: 10% 32px 23% 26px;
     border-radius: 6px;
     background-color: white;
@@ -107,10 +109,14 @@ nav.head {
 .text {
     margin-left: 10px;
     margin-bottom: 11px;
+    word-spacing: 5px;
+    line-height: 19px;
     color: rgb(66, 65, 66);
 }
 .wrld {
     margin-left: 10px;
+    line-height: 22px;
+    word-spacing: 2px;
 }
 .banking {
     border: 1px;
@@ -195,6 +201,8 @@ nav.head {
 }
 .para {
     color: rgb(168, 161, 168);
+    line-height: 28px;
+    word-spacing: 0.1px;
     margin-bottom: 14%;
 }
 img.logo2 {
