@@ -1,0 +1,9 @@
+@media screen and (max-width:1150px){
+    .wrap3 {
+        grid-template-columns: auto;
+    }
+    .wrap4 {
+        grid-template-columns: auto;
+    }
+    
+}
