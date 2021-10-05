@@ -1,4 +1,10 @@
 @media screen and (max-width:1150px){
+    .wrap-box {
+        flex-direction: column;
+    }
+    .wrap2 {
+        flex-direction: column;
+    }
     .wrap3 {
         grid-template-columns: auto;
     }
