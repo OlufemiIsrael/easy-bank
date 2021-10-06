@@ -157,6 +157,10 @@ header{
 .peru {
     margin-bottom: 33px;
 }
+.bar {
+    width: 7%;
+    display: none;
+}
 .wrap1 {
     margin: -9px 13px 6px 6%;
     padding: 31px 43% 1px 1px;
