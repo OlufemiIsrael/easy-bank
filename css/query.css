@@ -3,6 +3,7 @@
         margin-left: -14%;
     }
 }
+
 @media screen and (max-width: 1024px) {
     .wrap {
         margin-left: -4%;
@@ -20,19 +21,22 @@
         padding-bottom: 4%;
     }
 }
+
 @media screen and (max-width: 1009px) {
     .h1 {
         padding: 2% 36% 1% 1%;
     }
     .wrapper {
-        background-position: 525px -235px;
+        background-position: 525px -225px;
     }
 }
+
 @media screen and (max-width: 945px) {
     .wrap3 {
         padding-bottom: 12%;
     }
 }
+
 @media screen and (max-width: 900px) {
     .wrap3 {
         grid-template-columns: auto auto;
@@ -40,47 +44,73 @@
     .wrap2 {
         grid-template-columns: auto auto;
     }
-}
-@media screen and (max-width: 875px) {
     .phone {
         margin-top: -10%;
-        /* margin-left: -14%; */
+        margin-left: -26%;
+    }
+    .wrapper {
+        background-position: 441px -174px;
     }
     .head-wrap {
         display: none;
     }
     .bar {
-        display: block;
+        visibility: visible;
     }
     .right{
         display: none;
     }
 }
-@media screen and (max-width:768px) {
-    .wrap {
-        margin-top: -1%;
-        margin-left: -4%;
-    }
+
+@media screen and (max-width: 860px) {
     .phone {
-        margin-left: -41%;
+        margin-left: -39%;
+        margin-top: -13%;
+    }
+    .paragraph {
+        padding: 2px 46% 1px 3px;
     }
     .wrapper {
-        background-position: 405px -235px;
-    }
-    .wrap3 {
-        padding-bottom: 12%;
-    }
-    .choplife {
-        padding: 1% 0% 1% 0%;
-        height: 68%;
+        background-position: 360px -173px;
     }
 }
-@media screen and (max-width: 452px){
+
+@media screen and (max-width: 770px) {
+    .wrap {
+        margin-left: -10%;
+    }
+    .phone {
+        margin-left: -51%;
+    }
+    .wrapper {
+    background-position: 300px -159px;
+    }
+}
+
+@media screen and (max-width: 680px) {
     .wrap {
         order: 2;
+        text-align: center;
+        margin-top: -18%;
+    }
+    .h1 {
+        margin-bottom: 3px;
+    }
+    .paragraph {
+        margin-bottom: 4px;
     }
     .phone {
         order: 1;
+        margin-left: 42%;
+    }
+    .img-mockup {
+        width: 447px;
+    }
+    .wrapper {
+        background-position: -121px -175px;
+        background-size: 156% 131%;
+        height: 83vh;
+        margin: 1% 1% 32% 1%;
     }
     .wrap-box {
         flex-direction: column;

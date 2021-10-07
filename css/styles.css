@@ -166,7 +166,9 @@ header{
 }
 .bar {
     width: 7%;
-    display: none;
+    margin-left: 122%;
+    margin-top: -6%;
+    visibility: hidden;
 }
 .wrap1 {
     margin: -9px 13px 6px 6%;
