@@ -26,12 +26,11 @@ header{
 }
 
 .wrapper {
-    height: 100vh;
+    height: 77vh;
     background-image: url(../img/bg-intro-desktop.svg);
-    background-size: 100% 150%;
-    background-position: 571px -232px;
+    background-size: 72% 158%;
+    background-position: 702px -223px;
     background-repeat: no-repeat;
-   
 }
 .wrap-box {
    display:flex;
@@ -41,9 +40,13 @@ header{
 }
 .phone{
     margin-top: -7%;
-    margin-right: 3%;
-    margin-left: -16%;
     overflow: hidden;
+}
+.img-mockup{
+    width: 500px;
+}
+.mockups{
+    width: 100%;
 }
 .h1 {
     margin-left: 14%;
@@ -68,6 +71,7 @@ header{
 .wrap3 {
     display: grid;
     margin-left: 37px;
+    padding-bottom: 5%;
     grid-template-columns: auto auto auto auto;
 }
 .frontend {
@@ -91,7 +95,7 @@ header{
 }.choplife {
     border: 1px;
     padding: 4px 1px 22px 2px;
-    margin: 10% 32px 23% 26px;
+    margin: 10% 34px 25% 28px;
     border-radius: 6px;
     font-size: 15px;
     color: rgb(168, 161, 168);
