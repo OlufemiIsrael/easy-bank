@@ -38,6 +38,9 @@ header{
 .phone:first-child{
     z-index: 1;
 }
+.wrap-box {
+    display:flex;
+ }
 .phone{
     margin-top: -7%;
     overflow: hidden;
@@ -177,8 +180,8 @@ header{
     background-color: hsl(0, 0%, 98%);
 }
 .wrap2 {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     align-content: center;
     margin-left: 4%;
     padding-bottom: 39px;

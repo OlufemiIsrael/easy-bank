@@ -28,6 +28,34 @@
         background-position: 525px -235px;
     }
 }
+@media screen and (max-width: 945px) {
+    .wrap3 {
+        padding-bottom: 12%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .wrap3 {
+        grid-template-columns: auto auto;
+    }
+    .wrap2 {
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width: 875px) {
+    .phone {
+        margin-top: -10%;
+        /* margin-left: -14%; */
+    }
+    .head-wrap {
+        display: none;
+    }
+    .bar {
+        display: block;
+    }
+    .right{
+        display: none;
+    }
+}
 @media screen and (max-width:768px) {
     .wrap {
         margin-top: -1%;
