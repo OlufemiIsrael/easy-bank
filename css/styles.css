@@ -165,7 +165,8 @@ header{
     margin-bottom: 33px;
 }
 .bar {
-    width: 7%;
+    max-width: 7%;
+    min-width: 6%;
     margin-left: 122%;
     margin-top: -6%;
     visibility: hidden;
